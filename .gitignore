@@ -1,0 +1,16 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local dependencies (binaries go to release archives, not git)
+pylibs/
+.venv/
+venv/
+
+# Backups and local user data
+*.bak
+*.before-*
+*.tmp
+config.json
+cache/
+bootstrap.log
